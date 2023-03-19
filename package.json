@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "tsc && node ./dist/index.js",
+    "clear": "rm -rf dist/"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@polkadot/api": "^9.14.2"
+  }
+}
